@@ -1,0 +1,49 @@
+/* Select all element */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+/*header , main , footer */
+header , main, footer {
+    min-width: 100vw;
+}
+/* header */
+header {
+    display: inline-flex;
+    justify-content: space-between;
+   
+}
+.logo {
+    width: 3em;
+}
+/*Place the menu to the right of the page*/
+.menu{
+    /* margin: auto 0; */
+    align-items: flex-end;
+    margin: 5px 10px 0; 
+
+}
+.menu-list {
+    display: inline-flex;
+    list-style: none;
+}
+.menu-list li {
+    padding-right: 0 5px;
+}
+/*home*/
+#home {
+    background-color: rgba (106, 115, 92, .7);
+}
+.wrapper {
+    min-height: 100vh;
+    align-content: center;
+
+}
+.wrapper img{
+    display: block;
+    margin: 15px auto;
+}
+.wrapper p{
+    text-align: center;
+}
