@@ -19,6 +19,10 @@ header {
     width: 7em;
     height: 7em;
 }
+
+nav ul li{
+    padding: 0 10px 0 10px
+}
 /*Place the menu to the right of the page*/
 .menu{
     /* margin: auto 0; */
