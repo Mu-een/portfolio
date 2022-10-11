@@ -52,31 +52,46 @@ header {
 
 #about h2{
     text-align: center;
-    background-color: gray;
+    
+    
 
 }
 #about h2, h4, p{
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #resume h2{
     text-align: center;
-    background-color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#resume h2, ul,li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #project h2{
     text-align: center;
-    background-color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
 #contact h2 {
     text-align: center;
-    background-color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #contact ul,li{
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact, img, img,img{
+    width: 3em;
+    display: inline-flex;
+
 }
 
 footer{
     text-align: center;
+}
+
+body{
+    background-color:lightslategrey;
 }
