@@ -12,10 +12,12 @@ header , main, footer {
 header {
     display: inline-flex;
     justify-content: space-between;
+    
    
 }
 .logo {
-    width: 3em;
+    width: 7em;
+    height: 7em;
 }
 /*Place the menu to the right of the page*/
 .menu{
@@ -45,5 +47,36 @@ header {
     margin: 15px auto;
 }
 .wrapper p{
+    text-align: center;
+}
+
+#about h2{
+    text-align: center;
+    background-color: gray;
+
+}
+#about h2, h4, p{
+    text-align: center;
+}
+
+#resume h2{
+    text-align: center;
+    background-color: gray;
+}
+#project h2{
+    text-align: center;
+    background-color: gray;
+
+}
+
+#contact h2 {
+    text-align: center;
+    background-color: gray;
+}
+#contact ul,li{
+    text-align: center;
+}
+
+footer{
     text-align: center;
 }
