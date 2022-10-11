@@ -18,6 +18,9 @@ header {
 .logo {
     width: 7em;
     height: 7em;
+    border-radius: 50%;
+    margin-left: 2em;
+    margin-top: 1em;
 }
 
 nav ul li{
