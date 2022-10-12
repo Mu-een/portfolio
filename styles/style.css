@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 /* Select all element */
 *{
     margin: 0;
@@ -12,9 +14,13 @@ header , main, footer {
 header {
     display: inline-flex;
     justify-content: space-between;
-    
-   
 }
+    
+html {
+    font-family: Montserrat;
+
+}
+
 .logo {
     width: 7em;
     height: 7em;
@@ -22,13 +28,16 @@ header {
     margin-left: 2em;
     margin-top: 1em;
 }
-.me{
-    border-radius: 20%;
-    
+#about p{
+    width: 50em;
+    height: auto;
+    text-align: center;
     
 }
+
 nav ul li{
-    padding: 0 10px 0 10px
+    padding: 0 10px 0 10px;
+    
 }
 /*Place the menu to the right of the page*/
 .menu{
@@ -70,44 +79,46 @@ nav ul li{
     text-align: center;
 }
 
-#about h2{
-    text-align: center;
-    
-    
 
-}
 #about h2, h4, p{
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-#about img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;   
+    margin: auto;
+     
 }
 
 #resume h2{
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#resume h2, ul,li{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+#resume1 ul li {
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid black;
+    list-style: none;
+
+    
 }
+.img {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    
+
+    
+}
+
 #project h2{
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    
 }
 
 #contact h2 {
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 #contact ul,li{
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 .contact, img, img,img{
     width: 3em;
@@ -128,3 +139,4 @@ body{
 .grouplink:hover{
     color: black;
 }
+
