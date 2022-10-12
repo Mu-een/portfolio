@@ -22,7 +22,11 @@ header {
     margin-left: 2em;
     margin-top: 1em;
 }
-
+.me{
+    border-radius: 20%;
+    
+    
+}
 nav ul li{
     padding: 0 10px 0 10px
 }
@@ -36,9 +40,18 @@ nav ul li{
 .menu-list {
     display: inline-flex;
     list-style: none;
+    text-decoration: none;
+    
+    
 }
 .menu-list li {
     padding-right: 0 5px;
+    
+}
+.menu-list :hover{
+    color: black;
+    font-size: 21px;
+    text-decoration: none;
 }
 /*home*/
 #home {
@@ -108,4 +121,10 @@ footer{
 
 body{
     background-color:lightslategrey;
+}
+.name:hover{
+    color: black;
+}
+.grouplink:hover{
+    color: black;
 }
