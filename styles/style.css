@@ -1,10 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 /* Select all element */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
+    overflow-x: hidden;
 }
 /*header , main , footer */
 header , main, footer {
@@ -18,7 +18,6 @@ header {
     
 html {
     font-family: Montserrat;
-
 }
 
 .logo {
@@ -32,7 +31,6 @@ html {
     width: 50em;
     height: auto;
     text-align: center;
-    
 }
 
 nav ul li{
@@ -108,19 +106,14 @@ nav ul li{
     width: 30%;
     border-radius: 20%;
     height: auto;
-    
-
-
 }
 
 #project h2{
     text-align: center;
-    
 }
 
 #contact h2 {
     text-align: center;
-    
 }
 #contact ul,li{
     text-align: center;
@@ -129,7 +122,6 @@ nav ul li{
 .contact, img, img,img{
     width: 3em;
     display: inline-flex;
-
 }
 
 footer{
@@ -137,8 +129,10 @@ footer{
 }
 
 body{
-    background-color:lightslategrey;
+    background-image: linear-gradient(to right,
+     #F09819 0%, #EDDE5D  51%, #F09819  100%);
 }
+
 .name:hover{
     color: black;
 }
@@ -146,3 +140,8 @@ body{
     color: black;
 }
 
+.container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
