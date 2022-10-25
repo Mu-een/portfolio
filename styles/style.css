@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 /* Select all element */
 *{
     margin: 0;
@@ -10,138 +10,129 @@
 header , main, footer {
     min-width: 100vw;
 }
-/* header */
-header {
-    display: inline-flex;
-    justify-content: space-between;
-}
-    
+
+/* html & body*/
 html {
-    font-family: Montserrat;
-}
-
-.logo {
-    width: 7em;
-    height: 7em;
-    border-radius: 50%;
-    margin-left: 2em;
-    margin-top: 1em;
-}
-#about p{
-    width: 50em;
-    height: auto;
-    text-align: center;
-}
-
-nav ul li{
-    padding: 0 10px 0 10px;
-    
-}
-/*Place the menu to the right of the page*/
-.menu{
-    /* margin: auto 0; */
-    align-items: flex-end;
-    margin: 5px 10px 0; 
-
-}
-.menu-list {
-    display: inline-flex;
-    list-style: none;
-    text-decoration: none;
-    
-    
-}
-.menu-list li {
-    padding-right: 0 5px;
-    
-}
-.menu-list :hover{
-    color: black;
-    font-size: 21px;
-    
-}
-.menu-list a{
-    text-decoration: none;
-}
-/*home*/
-#home {
-    background-color: rgba (106, 115, 92, .7);
-}
-.wrapper {
-    min-height: 100vh;
-    align-content: center;
-
-}
-.wrapper img{
-    display: block;
-    margin: 15px auto;
-}
-.wrapper p{
-    text-align: center;
-}
-
-
-#about h2, h4, p{
-    text-align: center;
-    margin: auto;
-     
-}
-
-#resume h2{
-    text-align: center;
-}
-#resume1 ul li {
-    width: 50%;
-    margin: auto;
-    padding: 30px;
-    border: 2px solid black;
-    list-style: none;
-
-    
-}
-.img {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    border-radius: 20%;
-    height: auto;
-}
-
-#project h2{
-    text-align: center;
-}
-
-#contact h2 {
-    text-align: center;
-}
-#contact ul,li{
-    text-align: center;
-    
-}
-.contact, img, img,img{
-    width: 3em;
-    display: inline-flex;
-}
-
-footer{
-    text-align: center;
+    font-family: 'Cinzel', serif;
 }
 
 body{
     background-image: linear-gradient(to right,
-     #F09819 0%, #EDDE5D  51%, #F09819  100%);
+     #90afc5 50%, #336b87 100%);
 }
 
+/* header */
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+    
+nav ul li{
+    padding: 0 10px 0 10px;
+}
+
+.menu{
+    margin: auto 0;
+    align-items: flex-end;
+    margin: 5px 10px 0; 
+}
+.menu-list {
+    display: inline-flex;
+    list-style: none;
+    text-decoration: none; 
+    margin-left: 600px;
+}
+.menu-list li {
+    padding-right: 0 5px;
+}
+.menu-list :hover{
+    color: black;
+    font-size: 21px;  
+}
+.menu-list a{
+    color: black;
+    text-decoration: none;   
+}
+
+/* About */
+
+#about h1, h4, p{
+    text-align: center;
+    margin: auto;    
+}
+
+.img {
+    display:block;
+    margin-left: 20px;
+    width: 30em;
+    border-radius: 20%;
+    height: auto;
+}
+#about {
+    align-items: center;
+    display: inline-flex;
+    height: 50em;
+}
+#about p{
+    width: 50em;
+    margin-left: 5rem;
+    height: auto;
+    text-align: center;
+    color: ghostwhite;
+}
+
+/* Resume */
+#resume h2{
+    text-align: center;
+}
+#resume1 ul li {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid black;
+    list-style: none; 
+    box-shadow: .1vw .1vw .2vw .1vw;
+}
+
+
+/* Projects */
+#project h2{
+    text-align: center;
+}
+
+.projectlink:hover{
+    color: black;
+}
+
+/* Contact */
+#contact h2 {
+    text-align: center;
+}
+#contact ul,li{ 
+    display: flex;
+    margin: auto;
+    font-size: 18px;
+}
+.name {
+    color: black;
+}
 .name:hover{
     color: black;
 }
-.grouplink:hover{
-    color: black;
+.name {
+    text-decoration: none;
 }
-
 .container{
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+/* Footer */
+footer{
+    border-top: 2px solid black;
+    text-align: center;
 }
